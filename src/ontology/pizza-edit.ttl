@@ -6,7 +6,7 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
-Prefix(ccopizza:=<http://purl.obolibrary.org/obo/pizza.owl#>)
+Prefix(ccopizza:=<http://w3id.org/trustedai/pizza#>)
 
 
 Ontology(<http://w3id.org/trustedai/pizza>
@@ -16,18 +16,7 @@ Annotation(dce:description "None")
 Annotation(dce:title "Pizza Manufacturing Ontology based on Common-Core Ontology")
 Annotation(dcterms:license <https://spdx.org/licenses/CC0-1.0>)
 
-Declaration(Class(<https://w3id.org/tustedai/pizza#PIZZA_00000000>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
-
-
-############################
-#   Classes
-############################
-
-# Class: <https://w3id.org/tustedai/pizza#PIZZA_00000000> (root node)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/tustedai/pizza#PIZZA_00000000> "root node"@en)
-
 
 )
