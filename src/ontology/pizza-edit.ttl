@@ -1,35 +1,33 @@
-
-Prefix(:=<http://purl.obolibrary.org/obo/pizza.owl#>)
+Prefix(:=<http://w3id.org/trustedai/pizza#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(ccopizza:=<http://purl.obolibrary.org/obo/pizza.owl#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/pizza.owl>
-
-Import(<http://purl.obolibrary.org/obo/pizza/imports/cco_import.owl>)
-
-
-
-Annotation(dce:title "Pizza Manufacturing Ontology based on Common-Core Ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Ontology(<http://w3id.org/trustedai/pizza>
+<http://w3id.org/trustedai/pizza>
+Import(<http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/MergedAllCoreOntology>)
 Annotation(dce:description "None")
+Annotation(dce:title "Pizza Manufacturing Ontology based on Common-Core Ontology")
+Annotation(dcterms:license <https://spdx.org/licenses/CC0-1.0>)
 
-Declaration(Class(<http://purl.obolibrary.org/obo/PIZZA_00000000>))
+Declaration(Class(<https://w3id.org/tustedai/pizza#PIZZA_00000000>))
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/PIZZA_00000000>
+# Class: <https://w3id.org/tustedai/pizza#PIZZA_00000000> (root node)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PIZZA_00000000> "root node"@en)
+AnnotationAssertion(rdfs:label <https://w3id.org/tustedai/pizza#PIZZA_00000000> "root node"@en)
 
 
 )
-
